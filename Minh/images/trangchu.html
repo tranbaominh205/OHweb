@@ -3,14 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trang Chủ</title>
-    <link rel="stylesheet" href="Thành/trang-chu.css">
-    <link rel="stylesheet" href="Thành/mobile.css">
-    <link rel="icon" href="Minh/images/logoohc.ico">
-
+    <title>TEST</title>
+    <link rel="stylesheet" href="trangchu.css">
+    <link rel="stylesheet" href="/css/mobile.css" media =" screen and (max-width: 500px)" >
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-    <script src="Thành/script.js"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="icon" href="favicon.ico">
 </head>
 
 <body>
@@ -18,8 +16,9 @@
     <header>
         <div class="header-phu">
             <ul class="menu-header-phu">
-                <a href="#" style="cursor: not-allowed;"><li>Đăng nhập</a></li>
-                <a href="Minh/html/lien-he.html"><li>Liên hệ</a></li>
+                <li>Đăng nhập</li>
+                <li>Liên hệ</li>
+                <li>Hỗ trợ</li>
                 <li id="search-input-container"><input type="text" placeholder="Tìm kiếm" id="search-input"></li>
                 <li><i class="fa-solid fa-magnifying-glass" id="search-icon"></i></li> 
             </ul>
@@ -28,51 +27,42 @@
             <ul class="header-chinh-trai">
                 <li>
                     <a href="#">
-                        <img src="Minh/images/logoohc.png" alt="logo">
+                        <img src="img/logo.png" alt="logo">
                     </a>
                 </li>
                 <li class="title-truong">
-                    <h3>TRUNG HỌC PHỔ THÔNG</h3>
-                    <h2>MỞ THÀNH PHỐ HỒ CHÍ MINH</h2>
+                    <h1><a href="trangchu.html">TRUNG HỌC PHỔ THÔNG</a></h1>
+                    <h1><a href="trangchu.html">NGUYỄN TRÃI</a></h1>
                 </li>
             </ul>
-            <div id="hamburger-menu">
-                <span>&#9776;</span>
-            </div>
             <ul class="header-chinh-phai">
-                <li><a href="index.html">Trang chủ</a></li>
-                <a href="#"><li class="menu-chinh">Giới thiệu</a>
+                <li><a href="trangchu.html">Trang chủ</a></li>
+                <li class="menu-chinh">Giới thiệu
                     <ul class="menu-con">
-                        <a href="Minh/html/gioi-thieu.html"><li>Giới thiệu chung</li></a>
-                        <a href="Thành/lich-su-phat-trien.html"><li>Lịch sử phát triển</li></a>
-                        <a href="Thành/bangiamhieu.html"><li>Ban giám hiệu</li></a>
+                        <li><a href="lsphattrien.html">Lịch sử phát triển</a></li>
+                        <li><a href="bangiamhieu.html">Ban giám hiệu</a></li>
+                        <li>Sứ mệnh Tầm nhìn</li>
                     </ul>
                 </li>
-                
-                <a href="Minh/html/thong-tin-tuyen-sinh.html"><li class="menu-chinh">Tuyển sinh</a>
+                <li class="menu-chinh">Hoạt động
                     <ul class="menu-con">
-                        <a href="Minh/html/thong-tin-tuyen-sinh.html#mocThoiGian"><li>Mốc thời gian</li></a>
-                        <a href="Minh/html/thong-tin-tuyen-sinh.html#hocPhi"><li>Học phí, học bổng, hổ trợ</li></a>
-                        <a href="Minh/html/thong-tin-tuyen-sinh.html#thongTin"><li>Nhận thông tin</li></a>
-                        <a href="Minh/html/thong-tin-tuyen-sinh.html#doiNgu"><li>Đội ngũ tuyển sinh</li></a>
+                        <li>Tuyển sinh</li>
+                        <li>Kế hoạch tuần</li>
+                        <li>Các cuộc thi</li>
+                    </ul>
+                <li class="menu-chinh">Thư viện
+                    <ul class="menu-con">
+                        <li>Nội quy</li>
+                        <li>Kho đề thi</li>
+                        <li>Danh mục sách</li>
                     </ul>
                 </li>
-                <a href="Minh/html/hoat-dong-ngoai-khoa.html"><li class="menu-chinh">Hoạt động</a>
-                    <ul class="menu-con">
-                        <a href="Minh/html/hoat-dong-ngoai-khoa.html#lich"><li>Lịch hoạt động</li></a>
-                        <a href="Minh/html/hoat-dong-ngoai-khoa.html#hoatDong"><li>Câu lạc bộ, đội nhóm</li></a>
-                        <a href="Minh/html/hoat-dong-ngoai-khoa.html#hoatDong"><li>Thể thao, văn nghệ</li></a>
-                        <a href="Minh/html/hoat-dong-ngoai-khoa.html#hoatDong"><li>chương trình tình nguyện</li></a>
-
-                    </ul>
-                </li>
-                <a href="Minh/html/goc-phu-huynh.html"><li class="menu-chinh">Phụ huynh</a></li>
             </ul>
         </div>
     </header>    
 
 <!-- ẢNH -->
-<img src="https://www.independentschoolparent.com/wp-content/uploads/2022/09/My-project-14.jpg" alt="anh">
+<img src="img/anhgoc.png" alt="anh">
 
  <!-- TIN TỨC-HOẠT ĐỘNG -->
  <h2 class="title-tintuc">TIN TỨC - HOẠT ĐỘNG</h2>  
@@ -80,18 +70,18 @@
     <div class="nhieu-tintuc-con">
         <div class="tintuc-con">
             <a href="#" class="img">
-                <img class="thumb" src="Minh/images/tintuc1.png" alt="ảnh">
+                <img class="thumb" src="img/tintuc1.png" alt="ảnh">
             </a>
             <div class="noidung-tintuc">
                 <span class="date">5 September 2024</span>
                 <h3 class="title">
-                    <a href="#">Trường THPT Chuyên Hà Tĩnh tổ chức lễ khai giảng năm học mới 2024 - 2025.</a>
+                    <a href="#">Trường THPT Nguyễn Trãi tổ chức lễ khai giảng năm học mới.</a>
                 </h3>
             </div>
         </div>
         <div class="tintuc-con">
             <a href="#">
-                <img class="thumb" src="Minh/images/tintuc2.png" alt="ảnh">
+                <img class="thumb" src="img/tintuc2.png" alt="ảnh">
             </a>
             <div class="noidung-tintuc">
                 <span class="date">12 August 2024</span>
@@ -102,7 +92,7 @@
         </div>
         <div class="tintuc-con">
             <a href="#">
-                <img class="thumb" src="https://thptchuyenhatinh.edu.vn/wp-content/uploads/2023/11/thao-gi%CC%89ang-4-1024x768.jpg" alt="ảnh">
+                <img class="thumb" src="img/tintuc3.png" alt="ảnh">
             </a>
             <div class="noidung-tintuc">
                 <span class="date">31 July 2024</span>
@@ -113,7 +103,7 @@
         </div>
         <div class="tintuc-con">
             <a href="#">
-                <img class="thumb" src="https://bcp.cdnchinhphu.vn/334894974524682240/2022/10/24/tuyen-sinh-2021-166314089134113137076500-16665993252601357979429.jpg" alt="ảnh">
+                <img class="thumb" src="img/tintuc4.png" alt="ảnh">
             </a>
             <div class="noidung-tintuc">
                 <span class="date">13 July 2024</span>
@@ -177,10 +167,10 @@
     </div>
 </div>
 
-<!-- TẦM NHÌN-SỨ MẠNG -->
+<!-- TẦM NHÌN-SỨ MỆNH -->
 <div class="tamnhin-sumenh">
     <div class="noidung-tamnhin-sumenh">
-      <h2>SỨ MỆNH</h2>
+      <h2>TẦM NHÌN</h2>
       <p>Trong một tương lai không xa, nhà trường nằm trong trong hệ thống các trường THPT có chất lượng cao trong cả nước và quốc tế. Học sinh của nhà trường có lý tưởng sống cao đẹp, mạnh mẽ về trí lực, mạnh khỏe về thể chất.</p>
     </div>
     <div class="ngancach"></div>
@@ -193,30 +183,29 @@
 <!-- FOOTER -->
 <footer class="footer">
     <div class="noidung-footer">
-        <p><strong>Trường Trung Học Phổ Thông Mở Thành Phố Hồ Chí Minh</strong></p>
-        <p>Địa chỉ: Khu dân cư Nhơn Đức, Nhà Bè, Hồ Chí Minh</p>
-        <p>Điện thoại: (028) 1234 1234</p>
-        <p>Email: ohc@gmail.com</p>
-        <a href="#">Điều khoản sử dụng</a> | <a href="#">Chính sách bảo mật</a>
+      <p><strong>Trường Trung Học Phổ Thông Phan Đình Phùng</strong></p>
+      <p>Địa chỉ: Số 67A Lý Thường Kiệt, Quận Hoàn Kiếm, Hà Nội</p>
+      <p>Điện thoại: (04) 3825 2863</p>
+      <p>Email: info@pdpschool.edu.vn</p>
+      <a href="#">Điều khoản sử dụng</a> | <a href="#">Chính sách bảo mật</a>
     </div>
     <div class="lichtrinh">
-        <p><strong>Lịch trình:</strong></p>
-        <p>7:00 sáng: Lớp học bắt đầu</p>
-        <p>11:30 sáng: kết thúc ca sáng</p>
-        <p>1:30 chiều: Lớp học bắt đầu</p>
-        <p>4:30 chiều: kết thúc ca chiều</p>
+      <p><strong>Lịch trình:</strong></p>
+      <p>7:40 sáng: Lớp học bắt đầu</p>
+      <p>6:50 sáng: Giờ bắt đầu cho Giờ thứ 0</p>
+      <p>2:30 chiều: Tan học</p>
     </div>
     <div class="lienket">
         <h4 class="tieu-de">Liên kết mạng xã hội:</h4>
         <div class="lienket-mxh">
             <a href="https://www.facebook.com" target="_blank">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/800px-Facebook_Logo_%282019%29.png" alt="Facebook">
+                <img src="img/logo2.png" alt="Facebook">
             </a>
             <a href="https://www.youtube.com" target="_blank">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png" alt="YouTube">
+                <img src="img/logo3.png" alt="YouTube">
             </a>
             <a href="https://www.tiktok.com" target="_blank">
-                <img src="https://static.vecteezy.com/system/resources/previews/016/716/450/non_2x/tiktok-icon-free-png.png" alt="TikTok">
+                <img src="img/logo4.png" alt="TikTok">
             </a>
         </div>
     </div>
